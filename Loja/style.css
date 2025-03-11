@@ -4,3 +4,25 @@
     box-sizing: border-box;
 }
 
+body{
+    height: auto;
+    overflow-x: hidden;
+    padding: 20px;
+    background-color: #020920 !important;
+    color: aliceblue !important;
+}
+
+h4{
+    text-transform: uppercase;
+}
+
+.wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
